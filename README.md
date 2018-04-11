@@ -13,7 +13,7 @@ sure that you need to rethink your solution.
 
 The assignment is in two files:
 
-1. [lib/Hw0.hs](/lib/Hw0.hs) has skeleton functions
+1. [src/Hw1.hs](/src/Hw1.hs) has skeleton functions
    with missing bodies that you will fill in,
 
 2. [tests/Test.hs](/tests/Test.hs) has some sample tests,

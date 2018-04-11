@@ -198,7 +198,7 @@ ghci> listReverse ["a", "b", "c", "d"]
 ["d", "c", "b", "a"]
 ```
 
-###(b) 10 points
+### (b) 10 points
 
 A *palindrome* is a word that reads the same from left-to-right and
 right-to-left. Write a function

@@ -10,7 +10,7 @@ endif
 endif
 
 COURSE=cs130s
-ASGN=hw1
+ASGN=01-haskell
 
 test: clean
 	$(STACK) test 

@@ -3,7 +3,8 @@
 
      You may only replace the `error "TBD:..."` parts.
 
-     For this assignment, you may use the following library functions:
+     For this assignment, you may use any library function on integers
+     but only the following library functions on lists:
 
      length
      append

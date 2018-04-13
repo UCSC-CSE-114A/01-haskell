@@ -11,6 +11,13 @@ relatively little code ranging from 2 to 15 lines.
 If any function requires more than that, you can be
 sure that you need to rethink your solution.
 
+**Note: Start Early** Haskell, while simple,
+when you know how, may seem foreign at first,
+particularly when it comes to recursion and
+list manipulation.
+
+## Structure and Constraints
+
 The assignment is in two files:
 
 1. [lib/Hw0.hs](/lib/Hw0.hs) has skeleton functions
@@ -28,15 +35,26 @@ error "TBD: ..."
 
 with suitable Haskell implementations.
 
-**Note: Start Early** Haskell, while simple,
-when you know how, may seem foreign at first,
-particularly when it comes to recursion and
-list manipulation.
+However, if you're asked to fill in a function definition, such as:
+
+```haskell
+f xs = error "TBD: ..."
+```
+
+you are also allowed to split this definition into multiple equations, like so:
+
+```haskell
+f []     = ...
+f (x:xs) = ...
+```
+
+You are allowed to use any library function on integers,
+but only the following two library functions on lists: `length`, `(++)` (append).
 
 
 ## Assignment Testing and Evaluation
 
-Your functions/programs **must** compile and run on `ieng6.ucsd.edu`.
+Your programs **must** compile and run on `ieng6.ucsd.edu`.
 
 Most of the points, will be awarded automatically, by
 **evaluating your functions against a given test suite**.
@@ -70,7 +88,7 @@ leave it as is with the `error ...` with your partial
 solution enclosed below as a comment.
 
 The other lines will give you a readout for each test.
-You are encouraged to try to understand the testing code,
+You are encouraged to try understanding the testing code,
 but you will not be graded on this.
 
 ## Submission Instructions

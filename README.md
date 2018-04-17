@@ -20,7 +20,7 @@ list manipulation.
 
 The assignment is in two files:
 
-1. [lib/Hw0.hs](/lib/Hw0.hs) has skeleton functions
+1. [src/Hw1.hs](/src/Hw1.hs) has skeleton functions
    with missing bodies that you will fill in,
 
 2. [tests/Test.hs](/tests/Test.hs) has some sample tests,
@@ -49,7 +49,7 @@ f (x:xs) = ...
 ```
 
 You are allowed to use any library function on integers,
-but only the following two library functions on lists: `length`, `(++)` (append).
+but only the following two library functions on lists: `length`, `(++)` (append), `(==)` (is equal)
 
 
 ## Assignment Testing and Evaluation

@@ -7,7 +7,8 @@
      but only the following library functions on lists:
 
      length
-     append
+     (++)
+     (==)
 
  -}
 

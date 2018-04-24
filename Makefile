@@ -1,4 +1,10 @@
+
+#####################################################################################################
+COURSE=cs130s
+ASGN=01
+NAME=haskell
 STACK=stack
+#####################################################################################################
 
 UNAME := $(shell uname)
 ifeq ($(UNAME), Linux)
@@ -8,9 +14,6 @@ ifeq ($(UNAME), Darwin)
   FORMAT=macho
 endif
 endif
-
-COURSE=cs130s
-ASGN=01-haskell
 
 test: clean
 	$(STACK) test 
@@ -29,8 +32,8 @@ tags:
 
 turnin: 
 	# rm -rf .stack-work
-	rm -rf $(ASGN).tgz
-	tar -zcvf ../$(ASGN).tgz --exclude .stack-work --exclude .git ../$(ASGN)
-	mv ../$(ASGN).tgz . 
-	turnin -c $(COURSE) -p $(ASGN) ./$(ASGN).tgz
+	rm -rf ./$(ASGN)-$(NAME).tgz
+	tar -zcvf ../$(ASGN)-$(NAME).tgz --exclude .stack-work --exclude .git ../$(ASGN)-$(NAME)
+	mv ../$(ASGN)-$(NAME).tgz . 
+	turnin -c $(COURSE) -p $(ASGN) ./$(ASGN)-$(NAME).tgz  
 

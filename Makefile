@@ -1,6 +1,6 @@
 
 #####################################################################################################
-COURSE=cs130s
+COURSE=cs130w
 ASGN=01
 NAME=haskell
 STACK=stack
@@ -16,13 +16,13 @@ endif
 endif
 
 test: clean
-	$(STACK) test 
+	$(STACK) test --allow-different-user 
 
 bin:
-	$(STACK) build
+	$(STACK) build --allow-different-user
 
 clean: 
-	$(STACK) clean
+	$(STACK) clean --allow-different-user
 
 distclean: clean 
 	rm -rf .stack-work 

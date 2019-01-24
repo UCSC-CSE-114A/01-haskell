@@ -49,7 +49,7 @@ f (x:xs) = ...
 ```
 
 You are allowed to use any library function on integers,
-but only the following two library functions on lists: `length`, `(++)` (append), `(==)` (is equal)
+but only the following three library functions on lists: `length`, `(++)` (append), `(==)` (is equal)
 
 
 ## Assignment Testing and Evaluation

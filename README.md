@@ -54,8 +54,6 @@ but only the following three library functions on lists: `length`, `(++)` (appen
 
 ## Assignment Testing and Evaluation
 
-Your programs **must** compile and run on `ieng6.ucsd.edu`.
-
 Most of the points, will be awarded automatically, by
 **evaluating your functions against a given test suite**.
 
@@ -93,17 +91,13 @@ but you will not be graded on this.
 
 ## Submission Instructions
 
-To submit your code, just do:
+To submit your code, do:
 
 ```bash
-$ make turnin
+$ make prepare
 ```
 
-`turnin` will provide you with a confirmation of the
-submission process; make sure that the size of the file
-indicated by `turnin` matches the size of your file.
-See the ACS Web page on [turnin](http://acs.ucsd.edu/info/turnin.php)
-for more information on the operation of the program.
+This will create a file named `hw1-<cruzid>.tgz` for submission. Submit this file to the Canvas assignment.
 
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)

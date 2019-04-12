@@ -91,13 +91,13 @@ but you will not be graded on this.
 
 ## Submission Instructions
 
-To submit your code, just do:
+To submit your code, do:
 
 ```bash
 $ make prepare
 ```
 
-This will create a file named `hw1-<cruzid>.tgz` for submission.
+This will create a file named `hw1-<cruzid>.tgz` for submission. Submit this file to the Canvas assignment.
 
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)

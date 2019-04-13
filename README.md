@@ -1,6 +1,6 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Monday 1/28 1pm
+## Due by Monday 04/19 11:59pm
 
 
 ## Overview

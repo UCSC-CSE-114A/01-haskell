@@ -1,7 +1,7 @@
 
 #####################################################################################################
 COURSE=cmps112
-ASGN=01
+ASGN=hw1
 NAME=haskell
 STACK=stack
 #####################################################################################################
@@ -20,6 +20,6 @@ distclean: clean
 
 prepare: 
 	rm -rf ./$(ASGN)-$(NAME).tgz
-	tar -zcvf ../$(ASGN)-$(NAME).tgz --exclude .stack-work --exclude .git ../$(ASGN)-$(NAME)
+	tar -zcvf ../$(ASGN)-$(NAME).tgz --exclude .stack-work --exclude .git .
 	mv ../$(ASGN)-$(NAME).tgz .  
 

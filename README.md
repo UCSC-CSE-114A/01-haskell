@@ -1,6 +1,6 @@
 # Assignment 1: Intro to Haskell (65 points)
 
-## Due by Monday 04/19 11:59pm
+## Due by Friday 04/19 11:59pm
 
 
 ## Overview
@@ -97,7 +97,8 @@ To submit your code, do:
 $ make prepare
 ```
 
-This will create a file named `hw1-<cruzid>.tgz` for submission. Submit this file to the Canvas assignment.
+This will create a file named `hw1-haskell.tgz` for submission. Submit this file to the Canvas assignment.
+Make you also commit and push the changes to your gitlab repository as well.
 
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)

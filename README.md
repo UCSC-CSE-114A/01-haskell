@@ -154,7 +154,7 @@ from a number `n` is called the *additive persistence* of `n`,
 and the digit obtained is called the *digital root* of `n`.
 
 For example, the sequence obtained from the starting number
-`9876` is `9876 -> 30 -> 3`. so `9876` has an additive
+`9876` is `9876 -> 30 -> 3`. Therefore, `9876` has an additive
 persistence of `2` and a digital root of `3`.
 
 Write two functions

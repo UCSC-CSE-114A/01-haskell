@@ -32,3 +32,4 @@ test-suite test
                     tasty,
                     tasty-hunit,
                     hw1-haskell
+  other-modules:    Common

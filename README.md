@@ -88,17 +88,11 @@ The other lines will give you a readout for each test.
 You are encouraged to try understanding the testing code,
 but you will not be graded on this.
 
-## Submission Instructions
+## Assignment Submission
 
-To submit your code, do:
-
-```bash
-$ make prepare
-```
-
-This will create a file named `hw1-haskell.tgz` for submission. Submit this file to the Canvas assignment.
-Make sure you also commit and push the changes to your gitlab repository as well.
-
+We will grade your assignment based on the latest state
+of your repository prior to the due date. Make sure to
+push your changes to your repo!
 
 ## Problem 1: [Roots and Persistence](http://mathworld.wolfram.com/AdditivePersistence.html)
 

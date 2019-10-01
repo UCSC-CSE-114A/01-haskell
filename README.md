@@ -161,7 +161,7 @@ from a number `n` is called the *additive persistence* of `n`,
 and the digit obtained is called the *digital root* of `n`.
 
 For example, the sequence obtained from the starting number
-`9876` is `9876`, `30`, `3`, so `9876` has an additive
+`9876` is `9876 -> 30 -> 3`. so `9876` has an additive
 persistence of `2` and a digital root of `3`.
 
 Write two functions
@@ -183,8 +183,14 @@ behavior at the prompt:
 ghci> additivePersistence 9876
 2
 
+ghci> additivePersistence 99999
+2
+
 ghci> digitalRoot 9876
 3
+
+ghci> digitalRoot 99999
+9
 ```
 
 ## Problem 2: Palindromes

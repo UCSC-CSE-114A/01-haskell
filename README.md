@@ -12,9 +12,8 @@ If any function requires more than that, you can be
 sure that you need to rethink your solution.
 
 **Note: Start Early!** Haskell, while simple,
-when you know how, may seem foreign at first,
-particularly when it comes to recursion and
-list manipulation.
+may seem foreign at first, particularly when 
+it comes to recursion and list manipulation.
 
 ## Structure and Constraints
 

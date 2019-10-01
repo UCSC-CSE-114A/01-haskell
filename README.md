@@ -11,7 +11,7 @@ relatively little code ranging from 2 to 15 lines.
 If any function requires more than that, you can be
 sure that you need to rethink your solution.
 
-**Note: Start Early!** Haskell, while simple,
+**Start Early!** Haskell, while simple,
 may seem foreign at first, particularly when 
 it comes to recursion and list manipulation.
 
@@ -24,7 +24,7 @@ The assignment is in two files:
 
 2. [tests/Test.hs](/tests/Test.hs) has some sample tests
    and testing code that you will use to check your
-   assignments before submitting.
+   assignments before submitting. You won't be modifying this file.
 
 You should only need to modify the parts of the files which say:
 

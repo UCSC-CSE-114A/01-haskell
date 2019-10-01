@@ -9,19 +9,24 @@ unit1 :: Score -> TestTree
 unit1 sc = testGroup "Unit 1"
   [ mkTest
       sumList
+      []
+      0
+      "sumList 1"
+  ,mkTest
+      sumList
       [1, 2, 3, 4]
       10
-      "sumList 1"
+      "sumList 2"
   , mkTest
       sumList
       [1, -2, 3, 5]
       7
-      "sumList 2"
+      "sumList 3"
   , mkTest
       sumList
       [1, 3, 5, 7, 9, 11]
       36
-      "sumList 3"
+      "sumList 4"
   , mkTest
       digitsOfInt
       3124

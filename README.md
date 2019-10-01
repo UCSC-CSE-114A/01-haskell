@@ -11,7 +11,7 @@ relatively little code ranging from 2 to 15 lines.
 If any function requires more than that, you can be
 sure that you need to rethink your solution.
 
-**Note: Start Early** Haskell, while simple,
+**Note: Start Early!** Haskell, while simple,
 when you know how, may seem foreign at first,
 particularly when it comes to recursion and
 list manipulation.
@@ -21,9 +21,9 @@ list manipulation.
 The assignment is in two files:
 
 1. [src/Hw1.hs](/src/Hw1.hs) has skeleton functions
-   with missing bodies that you will fill in,
+   with missing bodies that you will fill in.
 
-2. [tests/Test.hs](/tests/Test.hs) has some sample tests,
+2. [tests/Test.hs](/tests/Test.hs) has some sample tests
    and testing code that you will use to check your
    assignments before submitting.
 
@@ -54,10 +54,10 @@ but only the following three library functions on lists: `length`, `(++)` (appen
 
 ## Assignment Testing and Evaluation
 
-Most of the points, will be awarded automatically, by
-**evaluating your functions against a given test suite**.
+Most of the points will be awarded automatically by
+evaluating your functions against a given test suite.
 
-[Tests.hs](/tests/Test.hs) contains a very small suite
+[Test.hs](/tests/Test.hs) contains a very small suite
 of tests which gives you a flavor of of these tests.
 When you run
 
@@ -81,7 +81,7 @@ OVERALL SCORE = ... / ...
 
 **If your output does not have one of the above your code will receive a zero**
 
-If for some problem, you cannot get the code to compile,
+If for some reason, you cannot get the code to compile,
 leave it as is with the `error ...` with your partial
 solution enclosed below as a comment.
 
@@ -112,7 +112,7 @@ sumList :: [Int] -> Int
 sumList xs = error "TBD:sumList"
 ```
 
-that such that `sumList xs` returns the sum of the integer elements of
+such that `sumList xs` returns the sum of the integer elements of
 `xs`. Once you have implemented the function, you should get the following
 behavior at the prompt:
 
@@ -141,7 +141,7 @@ such that `digitsOfInt n`
 * returns `[]` if `n` is not positive, and otherwise
 * returns the list of digits of `n` in the order in which they appear in `n`.
 
-Once you have implemented the function, you should get the following:
+Once you have implemented the function, you should get the following behavior:
 
 ```haskell
 ghci> digitsOfInt 3124

@@ -48,10 +48,20 @@ unit1 sc = testGroup "Unit 1"
       2
       "additivePersistence 1"
   , mkTest
+      additivePersistence
+      1
+      0
+      "additivePersistence 2"
+  , mkTest
       digitalRoot
       9876
       3
-      "digitalRoot"
+      "digitalRoot 1"
+  , mkTest
+      digitalRoot
+      1
+      1
+      "digitalRoot 2"
   , mkTest
       listReverse
       [1, 2, 3, 4]
@@ -61,7 +71,7 @@ unit1 sc = testGroup "Unit 1"
       listReverse
       ["a", "b", "c", "d"]
       ["d", "c", "b", "a"]
-      "rev 2"
+      "reverse 2"
   , mkTest
       palindrome
       "malayalam"

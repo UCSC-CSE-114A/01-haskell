@@ -186,11 +186,17 @@ ghci> additivePersistence 9876
 ghci> additivePersistence 99999
 2
 
+ghci> additivePersistence 1
+0
+
 ghci> digitalRoot 9876
 3
 
 ghci> digitalRoot 99999
 9
+
+ghci> digitalRoot 1
+1
 ```
 
 ## Problem 2: Palindromes

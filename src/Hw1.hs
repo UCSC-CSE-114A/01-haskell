@@ -1,4 +1,4 @@
-{- | CSE 130: Intro to Haskell Assignment.
+{- | CSE 116: Intro to Haskell Assignment.
      Do not change the skeleton code!
 
      You may only replace the `error "TBD:..."` parts.

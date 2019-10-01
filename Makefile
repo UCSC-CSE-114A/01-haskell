@@ -1,6 +1,6 @@
 
 #####################################################################################################
-COURSE=cmps112
+COURSE=cse116
 ASGN=hw1
 NAME=haskell
 STACK=stack
@@ -12,7 +12,7 @@ test: clean
 bin:
 	$(STACK) build --allow-different-user
 
-clean: 
+clean:
 	$(STACK) clean --allow-different-user
 
 distclean: clean 

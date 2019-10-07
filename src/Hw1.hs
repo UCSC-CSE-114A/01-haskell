@@ -46,7 +46,7 @@ digitsOfInt :: Int -> [Int]
 digitsOfInt n = error "TBD:digitsOfInt"
 
 
--- | `digits n` retruns the list of digits of `n`
+-- | `digits n` returns the list of digits of `n`
 --
 -- >>> digits 31243
 -- [3,1,2,4,3]
@@ -66,7 +66,7 @@ digits n = digitsOfInt (abs n)
 --   from a number n is called the additive persistence of n,
 --   and the digit obtained is called the digital root of n.
 --   For example, the sequence obtained from the starting number
---   9876 is (9876, 30, 3), so 9876 has
+--   9876 is 9876 -> 30 -> 3, so 9876 has
 --   an additive persistence of 2 and
 --   a digital root of 3.
 --
@@ -75,14 +75,21 @@ digits n = digitsOfInt (abs n)
 -- >>> additivePersistence 9876
 -- 2
 
+-- >>> additivePersistence 99999
+-- 2
+
 additivePersistence :: Int -> Int
 additivePersistence n = error "TBD"
 
 -- | digitalRoot n is the digit obtained at the end of the sequence
 --   computing the additivePersistence
---
+
 -- >>> digitalRoot 9876
 -- 3
+
+-- >>> digitalRoot 99999
+-- 9
+
 digitalRoot :: Int -> Int
 digitalRoot n = error "TBD"
 

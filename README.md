@@ -48,7 +48,10 @@ f (x:xs) = ...
 ```
 
 You are allowed to use any library function on integers,
-but only the following three library functions on lists: `length`, `(++)` (append), `(==)` (is equal)
+but **only the following three library functions on lists**: `length`, `(++)` (append), `(==)` (is equal)  
+
+Banned functions include (but are not limited to): `sum`, `read`, `show`, `reverse`, `map`, and `filter`  
+If you are not sure whether a function is allowed, ask an instructor!
 
 
 ## Assignment Testing and Evaluation

@@ -2,5 +2,9 @@ sum
 read
 show
 reverse
+replicate
 map
+fmap
 filter
+foldl
+foldr

@@ -64,7 +64,7 @@ of tests which gives you a flavor of of these tests.
 When you run
 
 ```shell
-$ stack test
+$ make test
 ```
 
 Your last lines should have

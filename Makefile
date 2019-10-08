@@ -7,7 +7,7 @@ STACK=stack
 #####################################################################################################
 
 test: clean
-   ./tests/banned.sh tests/taboo
+	bash tests/banned.sh tests/taboo
 	$(STACK) test --allow-different-user 
 
 bin:

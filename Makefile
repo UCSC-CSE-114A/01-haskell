@@ -8,7 +8,7 @@ STACK=stack
 
 test: clean
 	bash tests/banned.sh tests/taboo || true
-	$(STACK) test --allow-different-user 
+	$(STACK) test --allow-different-user || true 
 
 bin:
 	$(STACK) build --allow-different-user

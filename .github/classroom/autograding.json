@@ -2,7 +2,7 @@
   "tests": [
     { 
       "name": "sumList 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"sumList 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"sumList 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -12,7 +12,7 @@
     },
      { 
       "name": "sumList 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"sumList 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"sumList 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -22,7 +22,7 @@
     },
      { 
       "name": "sumList 3",
-      "run": "stack test --allow-different-user --ta \"--pattern \"sumList 3\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"sumList 3\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -32,7 +32,7 @@
     },
      { 
       "name": "sumList 4",
-      "run": "stack test --allow-different-user --ta \"--pattern \"sumList 4\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"sumList 4\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -42,7 +42,7 @@
     },
     { 
       "name": "digitsOfInt 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digitsOfInt 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digitsOfInt 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -52,7 +52,7 @@
     },
      { 
       "name": "digitsOfInt 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digitsOfInt 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digitsOfInt 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -62,7 +62,7 @@
     },
      { 
       "name": "digits 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digits 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digits 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -72,7 +72,7 @@
     },
      { 
       "name": "digits 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digits 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digits 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -82,7 +82,7 @@
     },
      { 
       "name": "additivePersistence 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"additivePersistence 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"additivePersistence 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -92,7 +92,7 @@
     },
      { 
       "name": "additivePersistence 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"additivePersistence 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"additivePersistence 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -102,7 +102,7 @@
     },
      { 
       "name": "digitalRoot 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digitalRoot 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digitalRoot 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -112,7 +112,7 @@
     },
      { 
       "name": "digitalRoot 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"digitalRoot 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"digitalRoot 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -122,7 +122,7 @@
     },
      { 
       "name": "reverse 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"reverse 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"reverse 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -132,7 +132,7 @@
     },
      { 
       "name": "reverse 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"reverse 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"reverse 2\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -142,7 +142,7 @@
     },
      { 
       "name": "palindrome 1",
-      "run": "stack test --allow-different-user --ta \"--pattern \"palindrome 1\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"palindrome 1\"'"
       "setup": "",
       "input": "",
       "output": "",
@@ -152,7 +152,7 @@
     },
      { 
       "name": "palindrome 2",
-      "run": "stack test --allow-different-user --ta \"--pattern \"palindrome 2\"\""
+      "run": "stack test --allow-different-user --ta '--pattern \"palindrome 2\"'"
       "setup": "",
       "input": "",
       "output": "",

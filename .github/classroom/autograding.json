@@ -1,8 +1,88 @@
 {
   "tests": [
     { 
-      "name": "not_false",
-      "run": "stack run -- -p not_false",
+      "name": "sumList 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"sumList 1\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "sumList 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"sumList 2\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "sumList 3",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"sumList 3\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "sumList 4",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"sumList 4\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+    { 
+      "name": "digitsOfInt 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digitsOfInt 1\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "digitsOfInt 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digitsOfInt 2\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "digits 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digits 1\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "digits 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digits 2\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2.5
+    },
+     { 
+      "name": "additivePersistence 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"additivePersistence 1\\"\""
       "setup": "",
       "input": "",
       "output": "",
@@ -11,8 +91,8 @@
       "points": 5
     },
      { 
-      "name": "and_false_true",
-      "run": "stack run -- -p and_false_true",
+      "name": "additivePersistence 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"additivePersistence 2\\"\""
       "setup": "",
       "input": "",
       "output": "",
@@ -21,8 +101,8 @@
       "points": 5
     },
      { 
-      "name": "or_true_false",
-      "run": "stack run -- -p or_true_false",
+      "name": "digitalRoot 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digitalRoot 1\\"\""
       "setup": "",
       "input": "",
       "output": "",
@@ -31,68 +111,8 @@
       "points": 5
     },
      { 
-      "name": "suc_one",
-      "run": "stack run -- -p suc_one",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "add_one_zero",
-      "run": "stack run -- -p add_one_zero",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "add_one_two",
-      "run": "stack run -- -p add_one_two",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "skip1_false",
-      "run": "stack run -- -p skip1_false",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "skip1_true_zero",
-      "run": "stack run -- -p skip1_true_zero",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "skip1_true_one",
-      "run": "stack run -- -p skip1_true_one",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 10
-    },
-     { 
-      "name": "decr_zero",
-      "run": "stack run -- -p decr_zero",
+      "name": "digitalRoot 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"digitalRoot 2\\"\""
       "setup": "",
       "input": "",
       "output": "",
@@ -101,8 +121,28 @@
       "points": 5
     },
      { 
-      "name": "decr_one",
-      "run": "stack run -- -p decr_one",
+      "name": "reverse 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"reverse 1\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7.5
+    },
+     { 
+      "name": "reverse 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"reverse 2\\"\""
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 7.5
+    },
+     { 
+      "name": "palindrome 1",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"palindrome 1\\"\""
       "setup": "",
       "input": "",
       "output": "",
@@ -111,108 +151,8 @@
       "points": 5
     },
      { 
-      "name": "decr_two",
-      "run": "stack run -- -p decr_two",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "sub_two_zero",
-      "run": "stack run -- -p sub_two_zero",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "sub_two_one",
-      "run": "stack run -- -p sub_two_one",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "sub_two_two",
-      "run": "stack run -- -p sub_two_two",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "sub_two_three",
-      "run": "stack run -- -p sub_two_three",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "isz_zero",
-      "run": "stack run -- -p isz_zero",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "isz_one",
-      "run": "stack run -- -p isz_one",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "eq_zero_zero",
-      "run": "stack run -- -p eq_zero_zero",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "eq_zero_one",
-      "run": "stack run -- -p eq_zero_one",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "eq_one_two",
-      "run": "stack run -- -p eq_one_two",
-      "setup": "",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 10,
-      "points": 5
-    },
-     { 
-      "name": "eq_two_two",
-      "run": "stack run -- -p eq_two_two",
+      "name": "palindrome 2",
+      "run": "stack test --allow-different-user --ta \"--pattern \\"palindrome 2\\"\""
       "setup": "",
       "input": "",
       "output": "",

@@ -36,7 +36,8 @@
         "justusadam.language-haskell",
         "eriksik2.vscode-ghci",
         "jcanero.hoogle-vscode",
-        "GitHub.classroom"
+        "GitHub.classroom",
+        "GitHub.codespaces"
       ]
     }
   },

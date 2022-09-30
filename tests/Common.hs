@@ -28,6 +28,7 @@ tests x gs = testGroup "Tests" [ g x | g <- gs ]
 -- | Construct a single test case
 --------------------------------------------------------------------------------
 mkTest' :: (Show b, Eq b) => Score -> (a -> b) -> a -> b -> String -> TestTree
+mkTest' sc f x r name = scoreTest' sc (f, x, r, 1, name)
 
 --------------------------------------------------------------------------------
 scoreTest' :: (Show b, Eq b) => Score -> (a -> b, a, b, Int, String) -> TestTree

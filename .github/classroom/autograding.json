@@ -1,6 +1,17 @@
 {
   "tests": [
      {
+      "name": "INTEGRITY.md",
+      "run": "test -f ./INTEGRITY.md",
+      "setup": "",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 0
+    },
+
+     {
       "name": "reverse 1",
       "run": "stack test --allow-different-user --ta '--pattern \"reverse 1\"'",
       "setup": "",

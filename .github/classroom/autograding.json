@@ -13,7 +13,7 @@
         },
         {
             "name": "Taboo Word Check",
-            "run": "./tests/banned.sh tests/taboo.txt",
+            "run": "python ./tests/banned.py",
             "setup": "",
             "input": "",
             "output": "",
